@@ -1,22 +1,3 @@
-A library for Dart developers.
-
-Created from templates made available by Stagehand under a BSD-style
-[license](https://github.com/dart-lang/stagehand/blob/master/LICENSE).
-
-## Usage
-
-A simple usage example:
-
-```dart
-import 'package:AprendiendoDart/AprendiendoDart.dart';
-
-main() {
-  var awesome = new Awesome();
-}
-```
-
-## Features and bugs
-
-Please file feature requests and bugs at the [issue tracker][tracker].
-
-[tracker]: http://example.com/issues/replaceme
+# AprendiendoDart
+My first time programming Dart :dart: :green_apple: :100:
+>>>>>>> 740a8f2724fec44023ec013a78964a1aa2a9ba06
