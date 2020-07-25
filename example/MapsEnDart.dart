@@ -29,9 +29,18 @@ import 'package:test/test.dart';
     * Finalmente, vimos un tipo de tipado utilizando el tipado dynamic para el campo de valor
     */
 
-   Map provincias = <int,dynamic> {0:'San Jose', 1:'Guancaste', 2:'Cartago'};
+   Map provincias = <int,dynamic> {0:'San Jose', 1:'Guanacaste', 2:'Cartago'};
    print(provincias);
 
    provincias[3] = 2584.23; // Notar que al asignarle un valor al identificador 3, el mismo puede ser un número.
    print(provincias);
+   print('La cantidad de valores en el Map es: ${provincias.length}'); //DEVUELVE LA CANTIDAD DE VALORES QUE POSEE EN MAP
+
+
+
+  provincias.remove(3); //ASÍ ELIMINAMOS VALORES MEDIANTE IDENTIFICADORES
+  print(provincias);
+  print(provincias[1]); //IMPRIMIR UTILIZANDO UN IDENTIFICADOR
+  print(provincias.isEmpty); //DEVUELVE UN VALOR BOOLEANO
+   print('La cantidad de valores en el Map es: ${provincias.length}'); //DEVUELVE LA CANTIDAD DE VALORES QUE POSEE EN MAP
  }
