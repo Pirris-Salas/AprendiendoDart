@@ -32,9 +32,9 @@ main(List<String> arguments) {
    */
 
   String nombre = "Luis Salas";
-  print("$number mi nombre es: Luis Salas"); // Estilo Kotlin
-  print(number + " mi nombre es: " +nombre); // Estilo Java
-  print("${number} mi nombre es: ${nombre}"); // Estilo Kotlin usando expresiones
+  print('$number mi nombre es: Luis Salas'); // Estilo Kotlin
+  print(number + ' mi nombre es: ' +nombre); // Estilo Java
+  print('${number} mi nombre es: ${nombre}'); // Estilo Kotlin usando expresiones
 
   // Imprimiendo caracteres en texto sin generar malinterpretaciones por parte de la máquina virtual
 
